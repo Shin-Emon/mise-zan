@@ -1,0 +1,29 @@
+.btn {
+    text-decoration: none;
+    color: #fff;
+    background: #eb6100;
+    padding: 0.3em;
+    border-radius: 0.3em;
+    cursor: pointer;
+}
+
+input {
+    border-radius: 0.3em;
+    padding: 0.3em;
+    border: none;
+    outline: none;
+    font: inherit;
+    color: inherit;
+    background: none;
+    border: solid 1px black;
+    width: 100px;
+}
+
+button {
+    padding: 0;
+    border: none;
+    outline: none;
+    font: inherit;
+    color: inherit;
+    background: none
+}

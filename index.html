@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>見せ算電卓</title>
+</head>
+<body>
+    <h1 style="text-align: center;">一桁見せ算電卓</h1>
+    <div style="text-align: center;">
+        <input id="a" type="number"> 見せ <input id="b" type="number">
+        <button onclick=calculate() class="btn">計算</button>
+        <div>
+            <h3>眼は...</h3>
+            <p id="answer">0</p>
+            <h3>計算の過程</h3>
+            <p id="process"></p>
+        </div>
+    </div>
+    <div style="text-align: center; margin-top: 0.5em;">
+        <h2>見せ算のやり方</h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
