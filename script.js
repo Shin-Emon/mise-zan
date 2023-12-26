@@ -32,7 +32,7 @@ function calculate() {
         process.innerHTML = "生き別れの兄弟と勘違いして近寄るが<br><strong>全然違う！！</strong><br>驚いてひとりが携帯を落とし、それが小数点となる。<br>2と5は1になり、携帯はその間に落ちるため、眼は1.1。";
         answer = 1.1;
     } else if ((a == 6 && b == 9) || (a == 9 && b == 6)) {
-        process.innerHTML = "生き別れの兄弟として勘違いして近寄ってしまうため、6と9が1になって眼は11。";
+        process.innerHTML = "生き別れの兄弟と勘違いして近寄ってしまうため、6と9が1になって眼は11。";
         answer = 11;
     }
 
